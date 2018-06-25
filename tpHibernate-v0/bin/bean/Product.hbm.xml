@@ -1,0 +1,17 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+  <hibernate-mapping>
+  
+  <class name="bean.Product" table="MesProduits">
+    <id name="id" type="int" column="id">
+      <generator class="increment"/>
+    </id>
+    <property name="nom"   column="nom"   type="string"  ></property>
+    <property name="prenom"  column="prenom" type="string"  ></property>
+  
+   
+   
+  </class>
+</hibernate-mapping>
